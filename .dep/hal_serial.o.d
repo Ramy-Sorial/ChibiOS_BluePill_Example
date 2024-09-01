@@ -90,7 +90,8 @@ build/obj/hal_serial.o: ../../../os/hal/src/hal_serial.c \
  ../../../os/hal/include/hal_st.h \
  ../../../os/hal/ports/STM32/LLD/SYSTICKv1/hal_st_lld.h \
  ../../../os/hal/include/hal_mmc_spi.h \
- ../../../os/hal/include/hal_serial_usb.h
+ ../../../os/hal/include/hal_serial_usb.h \
+ ../../../os/hal/include/hal_usb_cdc.h
 ../../../os/hal/include/hal.h:
 ../../../os/common/portability/GCC/ccportab.h:
 ../../../os/hal/osal/rt-nil/osal.h:
@@ -212,3 +213,4 @@ cfg/mcuconf.h:
 ../../../os/hal/ports/STM32/LLD/SYSTICKv1/hal_st_lld.h:
 ../../../os/hal/include/hal_mmc_spi.h:
 ../../../os/hal/include/hal_serial_usb.h:
+../../../os/hal/include/hal_usb_cdc.h:

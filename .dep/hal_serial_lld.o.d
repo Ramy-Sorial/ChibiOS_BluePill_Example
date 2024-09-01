@@ -1,5 +1,5 @@
-build/obj/hal_st_lld.o: \
- ../../../os/hal/ports/STM32/LLD/SYSTICKv1/hal_st_lld.c \
+build/obj/hal_serial_lld.o: \
+ ../../../os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.c \
  ../../../os/hal/include/hal.h \
  ../../../os/common/portability/GCC/ccportab.h \
  ../../../os/hal/osal/rt-nil/osal.h \

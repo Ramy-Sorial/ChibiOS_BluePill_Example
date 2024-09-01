@@ -92,10 +92,11 @@ build/obj/shell_cmd.o: ../../../os/various/shell/shell_cmd.c \
  ../../../os/hal/include/hal_i2c.h ../../../os/hal/include/hal_i2s.h \
  ../../../os/hal/include/hal_icu.h ../../../os/hal/include/hal_mac.h \
  ../../../os/hal/include/hal_pwm.h ../../../os/hal/include/hal_rtc.h \
- ../../../os/hal/include/hal_serial.h ../../../os/hal/include/hal_sdc.h \
- ../../../os/hal/include/hal_sio.h ../../../os/hal/include/hal_spi.h \
- ../../../os/hal/include/hal_trng.h ../../../os/hal/include/hal_uart.h \
- ../../../os/hal/include/hal_usb.h \
+ ../../../os/hal/include/hal_serial.h \
+ ../../../os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h \
+ ../../../os/hal/include/hal_sdc.h ../../../os/hal/include/hal_sio.h \
+ ../../../os/hal/include/hal_spi.h ../../../os/hal/include/hal_trng.h \
+ ../../../os/hal/include/hal_uart.h ../../../os/hal/include/hal_usb.h \
  ../../../os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.h \
  ../../../os/hal/ports/STM32/LLD/USBv1/stm32_usb.h \
  ../../../os/hal/include/hal_wdg.h ../../../os/hal/include/hal_wspi.h \
@@ -250,6 +251,7 @@ cfg/mcuconf.h:
 ../../../os/hal/include/hal_pwm.h:
 ../../../os/hal/include/hal_rtc.h:
 ../../../os/hal/include/hal_serial.h:
+../../../os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h:
 ../../../os/hal/include/hal_sdc.h:
 ../../../os/hal/include/hal_sio.h:
 ../../../os/hal/include/hal_spi.h:
